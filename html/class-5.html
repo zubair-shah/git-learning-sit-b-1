@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Learning Form Part 2</h2>
+<form action="http://www.example.org/search.php">
+
+     
+     <fieldset>
+        <legend>Personal Info:</legend>
+         <p>Email:</p>
+         <input type="email"  required="required" /><br />
+         <p>Password:</p>
+         <input type="password" required="required" /> <br />
+     </fieldset>
+
+
+    <label for="course">
+      <select name="selected-course" id="course">
+        <option value="Full Stack dev">Full Stack</option>
+        <option value="Frontend">Frontend</option>
+      </select>
+    </label>
+
+    <textarea name="message" id="message" rows="10" cols="20" placeholder="Please Enter your message">
+
+    </textarea>
+     <br>
+     <button>
+        <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="" width="15px" height="15px">
+        Add
+     </button>
+
+  <p>Search:</p>
+  <input type="search" name="search" placeholder="Enter keyword" /><br />
+  <p>website:</p>
+  <input type="url"  /><br />
+
+  <p>Number:</p>
+  <input type="number" value="number" />
+  <p>Upload your Voice in MP3 format:</p>
+  <input type="file" name="user-voice" /><br /> <br>
+
+ <p>Choose Your favourite Programming language:</p> 
+  <label for="javascript">JavaScript</label>
+  <input type="radio" name="fav_lang" id="javascript" value="javascript" checked>
+
+ <label for="Python">Python</label>
+  <input type="radio" name="fav_lang" value="python" id="Python">
+
+ <label for="java">Java</label>
+  <input type="radio" name="fav_lang" value="java" id="java">
+<br><br>
+ <p>
+    Please select your favorite pakistani cricket players:
+    <br />
+    <input type="checkbox" name="player" value="babar" checked="checked" />
+    Babar Azam <input type="checkbox" name="player" value="sarfaraz" /> Sarfaraz
+    Ahmed <input type="checkbox" name="player" value="imad" /> Imad Waseem
+    <input type="checkbox" name="player" value="shaheen" /> Shaheen Shah Afridi
+  </p>
+  <br><br>
+    <input type="button" value="i am extra button">
+  <input type="submit" value="Send">
+</form>
+</body>
+</html>

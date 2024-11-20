@@ -1,0 +1,80 @@
+/* * {
+    color: whitesmoke;
+}
+
+
+/* 
+h1 {
+    color: red !important;
+}
+
+h1 {
+    color: pink !important;
+} */
+/* @font-face {
+    font-family: zubair-cartoon-font;
+    src: url('./CARTOON\ 80.ttf');
+}
+
+#firstHeading {
+    /* font-family: 'zubair-cartoon-font'; */
+/* font-family: "Londrina Sketch", sans-serif;
+font-family: "Noto Serif Oriya",
+serif;
+font-optical-sizing: auto;
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.conatiner {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+
+    display: flex;
+}
+
+.box1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+
+    margin: 20px;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}

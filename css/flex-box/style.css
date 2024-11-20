@@ -1,0 +1,64 @@
+.parent {
+    width: 1000px;
+    height: 400px;
+    border: 2px solid green;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    /* align-content: baseline; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+
+.child-1 {
+    background-color: aquamarine;
+    flex-basis: 32%;
+}
+
+.child-2 {
+    background-color: rgb(247, 255, 7);
+    flex-basis: 32%;
+}
+
+.child-3 {
+    background-color: rgb(255, 6, 151);
+    flex-basis: 32%;
+}
+
+.child-4 {
+    background-color: rgb(39, 92, 75);
+    flex-basis: 23.5%;
+}
+
+.child-5 {
+    background-color: rgb(102, 105, 9);
+    flex-basis: 23.5%;
+}
+
+.child-6 {
+    background-color: rgb(6, 39, 255);
+    flex-basis: 23.5%;
+}
+
+.child-7 {
+    background-color: rgb(17, 235, 68);
+    flex-basis: 23.5%;
+}

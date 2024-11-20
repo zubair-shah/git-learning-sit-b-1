@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+@media (max-width:1400px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        font-size: 35px;
+
+    }
+
+    p {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:1200px) {
+    body {
+        background-color: lightgray;
+    }
+
+    h1 {
+        font-size: 30px;
+
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1024px) {
+    body {
+        background-color: lightsalmon;
+    }
+
+    h1 {
+        font-size: 25px;
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
